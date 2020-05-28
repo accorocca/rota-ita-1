@@ -1,90 +1,397 @@
 figure_list:
-  - id: "dog1"
-    src: figures/lange.jpg
-    caption: "*Dorothea Lange, Resettlement Administration photographer, in California*, 1936."
-    credit: "Library of Congress Prints and Photographs Division"
-  - id: "dog2"
-    src: figures/evans.jpg
-    caption: "*Walker Evans, profile, hand up to face*, 1937."
-    credit: "Library of Congress Prints and Photographs Division"
-  - id: "fig-1"
-    label: "Figure 1"
-    src: figures/evans-legionnaire.jpg
-    caption: "Walker Evans. *[American Legionnaire]*, 1935. "
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-2"
-    label: "Figure 2"
-    src: figures/evans-sons.jpg
-    caption: "Walker Evans. *Sons of the American Legion, Bethlehem, Pennsylvania*, 1935."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-3"
-    label: "Figure 3"
-    src: figures/evans-graveyard.jpg
-    caption: "Walker Evans. *Graveyard, Houses and Steel Mill, Bethlehem, Pennsylvania*, 1935; printed later."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-4"
-    label: "Figure 4"
-    src: figures/evans-hymns.jpg
-    caption: "Walker Evans. *Alabama Tenant Farmer Family Singing Hymns / The Tengle Family, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-5"
-    label: "Figure 5"
-    src: figures/evans-burroughs.jpg
-    caption: "Walker Evans. *Floyd and Lucille Burroughs, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-6"
-    label: "Figure 6"
-    src: figures/evans-washroom.jpg
-    caption: "Walker Evans. *Washroom in the Dog Run of the Burroughs Home, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-7"
-    label: "Figure 7"
-    src: figures/evans-child.jpg
-    caption: "Walker Evans. *Farmer's Child, Alabama / Othel Lee (Squeakie) Burroughs, Hale County, Alabama*, 1936."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "fig-8"
-    label: "Figure 8"
-    src: figures/evans-refugee.jpg
-    caption: "Walker Evans. *Arkansas Flood Refugee*, 1937."
-    credit: "The J. Paul Getty Museum, Los Angeles"
-  - id: "lange-house"
-    src: figures/lange-house.jpg
-    caption: "Dorothea Lange. *Abandoned Dust Bowl Home*, about 1935–1940."
-    credit: The J. Paul Getty Museum, Los Angeles
-  - id: "evans-video"
-    src: figures/evans-video-still.jpg
-    media_id: BpGN0UUtqqU
-    media_type: youtube
-    caption: "A selection of Walker Evans photos from the across the United States of America, 1930s."
-    credit: The J. Paul Getty Museum, Los Angeles
-  - id: "photo-podcast"
-    media_id: 336879231
-    media_type: soundcloud
-    caption: "Echoing the work of Lange and Evans, contemporary photographer Chris Killip documents social landscapes and is known for a series of powerful images of struggling industrial communities in North East England."
-  - id: "mother"
-    src: figures/mother.jpg
-    caption: "Dorothea Lange, *Human Erosion in California / Migrant Mother*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-    download: true
-  - id: "mother-b"
-    src: figures/mother-b.jpg
-    caption: "Dorothea Lange, alternate version of *Migrant Mother*, 1936."
-    credit: Library of Congress Prints and Photographs Division
-  - id: "mother-c"
-    src: figures/mother-c.jpg
-    caption: "Dorothea Lange, alternate version of *Migrant Mother*, 1936."
-    credit: Library of Congress Prints and Photographs Division
-  - id: "pickers"
-    src: figures/pickers.jpg
-    caption: "Dorothea Lange, *Pea Pickers, Nipomo, California*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-  - id: "duo"
-    src: figures/duo.jpg
-    caption: "Walker Evans, *Bud Fields with His Wife Ivy, and His Daughter Ellen, Hale County, Alabama*, 1936."
-    credit: The J. Paul Getty Museum, Los Angeles
-    download: true
-  - id: "family"
-    src: figures/family.jpg
-    caption: "Walker Evans, *Burrough’s Family, Hale County, Alabama*, 1935."
-    credit: The J. Paul Getty Museum, Los Angeles
+  - id: logo-orizzontale
+    src: figures/musica_orizzontale.jpg
+  - id: logo-verticale
+    src: figures/musica_verticale.jpg
 
+
+  - id: A-ritratto-fanciullo
+    src: figures/1/A-Ritratto_fanciullo.jpg
+    caption:
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "1-favola"
+    label: "Fig. 4"
+    src: figures/1/A-Favola_ms.jpg
+    caption: "Nino Rota, *Storia del Mago Doppio e della Fata Giglia*, manoscritto (fotocopia)."
+    date: "[1919?]"
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "1-partitura"
+    label: "Fig. 6"
+    src: figures/1/A-Partitura_a.jpg
+    caption: "Nino Rota, *Suite per pianoforte a quattro mani*, seconda stesura, Adagio."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "1-front"
+    src: figures/1/fronte.jpg
+    label: "Fig. 5"
+    caption: "Nino Rota, *Suite per pianoforte a quattro mani*, prima stesura, frontespizio."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota"
+  - id: "1-ernesta"
+    src: figures/1/1-ernesta.jpg
+    label: "Fig. 1"
+    caption: "Ernesta Rota Rinaldi, fotografia."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "1-diario-ms"
+    src: figures/1/1-diario-ms.jpg
+    label: "Fig. 2"
+    caption: "Ernesta Rota Rinaldi, *Diari*, manoscritto."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "1-diario-datt"
+    src: figures/1/1-diario-datt.jpg
+    label: "Fig. 3"
+    caption: "Ernesta Rota Rinaldi, *Diari: Storia di Nino*, dattiloscritto."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+
+  - id: "1-audio"
+    label: "Audio 1"
+    caption: "Nino Rota esegue le prime battute della *Suite del Mago Doppio*. Estratto dalla trasmissione radiofonica *Voi ed io: punto e a capo*, andata in onda con la partecipazione di Rota per dieci puntate su RAI Radiouno nel novembre del 1977."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+    media_id: 828339955
+    media_type: soundcloud
+
+  - id: "album-1"
+    src: figures/2/Untitled-bbbb.jpg
+    Label: "Fig. 7"
+    caption: "Fig. 7. Album di ritagli stampa, 1923-1929."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "album-2"
+    src: figures/2/Untitled-cc.jpg
+    caption: "Album di ritagli stampa"
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+
+  - id: "ritratto_2"
+    src: figures/ritratto(A) copia.jpg
+
+
+  - id: "rinaldi-ritratto"
+    src: figures/2/2-rinaldi-ritratto.jpg
+    label: "Fig. 8"
+    caption: "Ritratto di Giovanni Rinaldi, ritaglio di rivista."
+    credit: "Venezia, Fondazione Cini, Fondo Ulderico Rolandi, Ritratti N-R."
+  - id: 2-juvenilia
+    src: figures/2/2-juvenilia.jpg
+    label: "Fig. 9"
+    caption: "Nino Rota, abbozzo giovanile per pianoforte."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 2-rinaldi
+    src: figures/2/2-rinaldi.jpg
+    label: "Fig. 10"
+    caption: "Giovanni Rinaldi, *Nel giardino*, n. 11 da *20 Sfumature* op. 68, Breitkopf & Härtel, Lipsia, [1879]."
+  - id: 2-teatro-rinaldi
+    src: figures/2/Teatro-illustrato-Rinaldi.jpg
+    label: "Fig. 11"
+    caption: "*La musica a Genova: La scuola pianistica*, in «Il teatro illustrato e la musica popolare», Anno VIII, Gennaio 1888, p. 6."
+    credit: "Venezia, Fondazione Cini, Collezione Riviste di teatro."
+
+
+
+  - id: juvenilia-1
+    src: figures/2/juvenilia-1.jpg
+    Label: "Fig. 8"
+    caption: "Nino Rota, Adagio per pianoforte, [ca 1920-21], manoscritto autografo, prima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota"
+  - id: juvenilia-2
+    src: figures/2/juvenilia-2.jpg
+
+  - id: "ms-4-1"
+    src: figures/4/ms_fantasia(q).jpg
+
+  - id: "2-audio"
+    label: "Audio 2"
+    caption: "Nino Rota, estratto dalla trasmissione radiofonica *Voi ed io: punto e a capo*, andata in onda con la partecipazione di Rota per dieci puntate su RAI Radiouno nel novembre del 1977."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+    media_id: 817023436
+    media_type: soundcloud
+
+  - id: 2-ritratto
+    src: figures/4/4-ritratto.png
+    label: "Fig. 12"
+    caption: "Nino Rota a Roma, fine anni '20, fotografia."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+
+
+  - id: "3-foto"
+    src: figures/3/3-foto.jpg
+    label: "Fig. 13"
+    caption: "Alfredo Casella, Filippo Tommaso Marinetti e Nino Rota a Capri, fotografia, 1930."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Alfredo Casella."
+  - id: "3-programma"
+    src: figures/3/programma.jpg
+    label: "Fig. 14"
+    caption: "Programma di sala del concerto tenuto dal pianista Guido Agosti a Milano presso il Circolo “Il Convegno” il 19 maggio 1931."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "3-recensioni"
+    src: figures/3/recensioni.jpg
+    label: "Fig. 15"
+    caption: "A sinistra: *I concerti - Guido Agosti al Convegno*, «L’Ambrosiano», 20 maggio 1931. A destra: *Guido Agosti al Convegno*, «La Sera», 20 maggio 1931."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: video_ipp
+    media_id: oRKUYrt-EcI
+    media_type: youtube
+
+  - id: 4-ms-fantasia
+    src: figures/4/4-ms-fantasia.jpg
+    label: "Fig. 16"
+    caption: "Nino Rota, *Fantasia* per pianoforte, manoscritto autografo, prima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 4-ms-fantasia-2
+    src: figures/4/4-ms-fantasia-2.jpg
+    label: "Fig. 17"
+    caption: "Nino Rota, *Fantasia* per pianoforte, manoscritto autografo, ultima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 4-prog
+    src: figures/4/4-prog.jpg
+    label: "Fig. 18"
+    caption: "Programma di sala del concerto finale del Corso di Perfezionamento di Pianoforte tenuto da Guido Agosti all’Accademia Musicale Chigiana, Siena, 11 settembre 1957."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 4-prog-2
+    src: figures/4/4-prog-2.jpg
+    caption: "Programma di sala del concerto finale del Corso di Perfezionamento di Pianoforte tenuto da Guido Agosti all’Accademia Musicale Chigiana, Siena, 11 settembre 1957, pagine interne."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 4-mandelli-1
+    src: figures/4/4-mandelli-1.jpg
+    caption: "Alfredo Mandelli, *Per sentire Bach c'è chi fa a pugni*, «L’Ambrosiano», s.d."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 4-mandelli-2
+    src: figures/4/4-mandelli-2.jpg
+
+
+
+  - id: 5-asdasd
+    src: figures/5/5-asdasd.jpg
+    label: "Fig. 19"
+    caption: "Nino Rota al pianoforte (Bari), fotografia."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 5-preludio
+    src: figures/5/5-preludio.jpg
+    label: "Fig. 20"
+    caption: "Nino Rota, *Preludio XV*, da *Quindici Preludi* per pianoforte, manoscritto autografo."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 5-capriccio
+    src: figures/5/5-capriccio.jpg
+    label: "Fig. 21"
+    caption: "Nino Rota, *Capriccio*, n. 3 dei *Sette pezzi difficili per bambini* per pianoforte, manoscritto autografo, prima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 5-circus
+    src: figures/5/5-circus.jpg
+    label: "Fig. 22"
+    caption: "Nino Rota, *Circus-Waltz* per pianoforte, manoscritto autografo, prima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 5-candido
+    src: figures/5/5-candido.jpg
+    label: "Fig. 23"
+    caption: "Alfredo Gasponi, *Il «candido» Rota chiude il 14. Festival Pontino*, «Il Messaggero», 1 agosto 1978."
+  - id: 5-video-prel
+    caption: "Nino Rota, *Quindici Preludi*, XIII. Andante cantabile. Nino Rota, pianoforte."
+    media_id: yLbimjvZxuk
+    media_type: youtube
+  - id: 5-video-circus
+    caption: "Nino Rota, *Due valzer sul nome di Bach: Circus-Waltz*. Angela Annese, pianoforte."
+    media_id: XX84LlNL1Ks
+    media_type: youtube
+  - id: 5-casanova-1
+    src: figures/5/5-casanova-1.jpg
+    label: "Fig. 23"
+    caption: "Quaderno di appunti per le musiche del film *Il Casanova di Federico Fellini*, 1976."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 5-casanova-2
+    src: figures/5/5-casanova-2.jpg
+
+
+  - id: 6-front
+    src: figures/6/6-front-a.jpg
+    label: "Fig. 24"
+    caption: "Nino Rota, *Concerto in do* per pianoforte e orchestra, abbozzo autografo, frontespizio."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 6-ms
+    src: figures/6/6-ms.jpg
+    label: "Fig. 25"
+    caption: Nino Rota, *Concerto in do per pianoforte e orchestra*, riduzione dell’autore per due pianoforti, secondo movimento “Arietta con variazioni”, manoscritto autografo, prima pagina.
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 6-inserto
+    src: figures/6/6-inserto.jpg
+    label: "Fig. 26"
+    caption: "Appunto manoscritto di Nino Rota per Arturo Benedetti Michelangeli."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "6-prog"
+    src: figures/6/prog-tot.jpg
+    label: "Fig. 28"
+    caption: "Programma di sala del *Concerto dedicato a Nino Rota*, Lanciano, Auditorio Diocleziano, 2 agosto 1974."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "6-datt"
+    src: figures/6/6-datt.jpg
+    label: "Fig. 27"
+    caption: "Nota introduttiva alla *Partita* per pianoforte e orchestra, dattiloscritto con interventi manoscritti di Nino Rota."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "6-video-hay"
+    caption: "Haydn, Concerto in sol maggiore Hob. XVIII/4. Arturo Benedetti Michelangeli, Züricher Kammerorchester, Edmond de Stoutz (dir.). <br>Cadenze di Nino Rota ai minuti 7:38 e 16:58."
+    media_id: 3imMok5FISo
+    media_type: youtube
+  - id: "6-nastro"
+    src: figures/6/6-nastro.jpg
+    label: "Fig. 29"
+    caption: "Registrazione dal vivo della *Partita* eseguita da Nino Rota a Lanciano nel 1975, nastro magnetico con etichetta manoscritta di N.R."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "6-audio"
+    label: "Audio 3"
+    caption: "Registrazione dal vivo della *Partita* eseguita da Nino Rota a Lanciano nel 1975, primo movimento."
+    media_id: 828427651
+    media_type: soundcloud
+  - id: "6-abb-1"
+    src: figures/6/6-abb-1.jpg
+    label: "Fig. 30"
+    caption: "Arturo Benedetti Michelangeli, *Haydn Klavierkonzerte in D und G* (LP), EMI, 1975."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "6-abb-2"
+    src: figures/6/6-abb-2.jpg
+
+
+  - id: "7-conc-mi"
+    src: figures/7/7-conc-mi.jpg
+    label: "Fig. 36"
+    caption: "Nino Rota, *Concerto in mi per pianoforte e orchestra “Piccolo mondo antico”*, riduzione dell’autore per due pianoforti, manoscritto autografo, prime due pagine del terzo movimento “Allegro”."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "7-prog-petrassi"
+    src: figures/7/7-prog-petrassi.jpg
+    label: "Fig. 34"
+    caption: "Programma di sala del concerto dell’Orchestra della Fondazione “Niccolò Piccinni” diretta da Goffredo Petrassi, pianista Nino Rota. Bari, Teatro Piccinni, 30 maggio 1963."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "7-prog-petrassi2"
+    src: figures/7/7-prog-petrassi2.jpg
+  - id: "7-prog"
+    src: figures/7/7-prog.jpg
+    label: "Fig. x"
+    caption: "xxxxxxxx"
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: "7-ritaglio"
+    src: figures/7/7-ritaglio.jpg
+    label: "Fig. 35"
+    caption: "f. c. [Franco Chieco], Modernità e romanticismo nel concerto di Petrassi e Rota, «La Gazzetta del Mezzogiorno», 31 maggio 1963."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 7-fantasia
+    src: figures/7/7-fantasia.jpg
+    label: "Fig. 31"
+    caption: "Nino Rota, *Fantasia sopra dodici note del “Don Giovanni”* per pianoforte e orchestra, riduzione dell’autore per due pianoforti, manoscritto autografo, prima pagina."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 7-gorini-1
+    src: figures/7/7-gorini-1.jpg
+    label: "Fig. 33"
+    caption: "Lettera di Nino Rota a Gino Gorini, Bari, 29 aprile 1963."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Gino Gorini."
+  - id: 7-gorini-2
+    src: figures/7/7-gorini-2.jpg
+  - id: 7-prog-moz
+    src: figures/7/7-prog-moz.jpg
+    label: "Fig. 32"
+    caption: "Programma di sala del concerto “Omaggio al Don Giovanni di Mozart”. Milano, 17 aprile 1961."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 7-marvulli
+    src: figures/7/7-marvulli.jpg
+    label: "Fig. 37"
+    caption: "Programma dei concerti dell'Orchestra Scarlatti. Napoli, 15 dicembre 1978."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+  - id: 7-audio-1
+    label: "Audio 4"
+    caption: "Nino Rota esegue la *Fantasia sopra dodici note del “Don Giovanni”* all'Angelicum di Milano, registrazione radiofonica su nastro magnetico."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+    media_id: 828435340
+    media_type: soundcloud
+  - id: 7-audio-b
+    label: "Audio 5"
+    caption: "Nino Rota esegue il *Concerto in mi* (primo movimento), registrazione su audiocassetta."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Nino Rota."
+    media_id: 828560443
+    media_type: soundcloud
+
+
+  - id: 7-video-soiree
+    caption:
+    media_id: buYjYJ9t8iI
+    media_type: youtube
+  - id: 7-video-fantasia
+    caption:
+    media_id: 53BP7j1Bgv8
+    media_type: youtube
+  - id: 7-video-conc-mi
+    caption:
+    media_id: 20kFEriqtJM
+    media_type: youtube
+
+
+  - id: 9-prog-1
+    src: figures/9/9-prog-1.jpg
+    label: "Fig. 41"
+    caption: "Programma di sala del concerto organizzato dalla Sociedad Filarmónica de Zaragoza, direttore Alfredo Casella, Saragozza, Teatro Principal, 25 marzo 1930."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Alfredo Casella."
+  - id: 9-prog-1928
+    src: figures/9/9-prog-1928.jpg
+    label: "Fig. 38"
+    caption: "Programma di sala del concerto organizzato dalla Corporazione delle Nuove Musiche, direttore Alfredo Casella, Siena, Teatro dei Rinnuovati, 14 settembre 1928.<br>☞ Nino Rota vi partecipa come percussionista."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Alfredo Casella."
+  - id: 9-foto
+    src: figures/9/9-foto.jpg
+    label: "Fig. 42"
+    caption: "Virgilio Mortari, Dante Alderighi, Vittorio Rieti e Nino Rota durante la tournée delle *Noces* in Spagna, fotografia, 1930."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Alfredo Casella."
+
+  - id: 9-foto-gruppo
+    src: figures/9/9-foto-gruppo.jpg
+    label: "Fig. 43"
+    caption: "Foto di gruppo a Saragozza durante la tournée delle *Noces*, fotografia, 1930.<br>☞ In seconda fila, da sinistra, Vittorio Rieti, Nino Rota e Virgilio Mortari."
+    credit: "Venezia, Fondazione Giorgio Cini, Fondo Alfredo Casella."
+
+  - id: video_mar
+    media_id: dGo_i7E-7rA&amp=&feature=youtu.be&amp=&t=499
+    media_type: youtube
+  - id: 10-due-timidi
+    src: figures/X/10-due-timidi.jpg
+    label: "Fig. 51"
+    caption: "Nino Rota, *I due timidi*, partitura autografa."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-foto-1
+    src: figures/X/ROT-foto-374r-2.jpg
+    label: "Fig. 45"
+    caption: "Fig. 44 Nino Rota al pianoforte nella sua casa di Roma, fotografia."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-foto-2
+    src: figures/X/ROT-foto-375r-2.jpg
+    label: "Fig. 45"
+    caption: "Fig. 45 Nino Rota al pianoforte nella sua casa di Roma, fotografia."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-foto-zaza
+    src: figures/X/10-foto-zaza.jpg
+    label: "Fig. 46"
+    caption: "Nino Rota durante le riprese del film *Zazà* (Renato Castellani, 1943), fotografia."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-zaza
+    src: figures/X/10-zaza.jpg
+    label: "Fig. 47"
+    caption: "*Zazà*, «Tempo», 8 aprile 1943: “Il Maestro che ha scritto e adattato le musiche del film sostituisce per un momento il pianista del caffè concerto, in modo da guidare la Miranda nell’interpretazione d’una canzone. Se il nostro ricordo è esatto, fu nel famoso «Passaporto rosso» che sentimmo cantare Isa Miranda per la prima volta.”."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-quaderno-1
+    src: figures/X/10-quaderno-1.jpg
+    label: "Fig. 49"
+    caption: "Quaderno di appunti di Nino Rota risalente alla metà degli anni Quaranta. Sulla pagina destra, in alto, è riconoscibile l’abbozzo dell’incipit del quarto movimento della *Sinfonia sopra una canzone d’amore*."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-quaderno-2
+    src: figures/X/10-quaderno-2.jpg
+    label: "Fig. 50"
+    caption: "Quaderno di appunti di Nino Rota risalente alla metà degli anni Quaranta. Sulla pagina sinistra, appunti di lavorazione per il film *Roma città libera* (Marcello Pagliero, 1946)."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-canzone-1
+    src: figures/X/10-canzone-1.jpg
+    label: "Fig. 48"
+    caption: "Nino Rota, *Canzone I di Zazà*, abbozzo per voce e pianoforte."
+    credit: "Venezia, Fondazione Cini, Fondo Nino Rota."
+  - id: 10-canzone-2
+    src: figures/X/10-canzone-2.jpg
+
+  - id: 9-telegramma
+    src: figures/9/9-telegramma.jpg
+    label: "Fig. 39"
+    caption: "Telegramma di Clemente Lozano (Concerts Catalonia) a Alfredo Casella, 30 gennaio 1930. *Recto*: accordi economici per la tournée spagnola."
+    credit: "Venezia, Fondazione Cini, Fondo Alfredo Casella, L.2465."
+  - id: 9-telegramma-v
+    src: figures/9/9-telegramma-v.jpg
+    label: "Fig. 40"
+    caption: "Telegramma di Clemente Lozano (Concerts Catalonia) a Alfredo Casella, 30 gennaio 1930. *Verso*: appunti di Alfredo Casella."
+    credit: "Venezia, Fondazione Cini, Fondo Alfredo Casella, L.2465."

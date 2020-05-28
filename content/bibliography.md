@@ -1,7 +1,5 @@
 ---
 title: Bibliography
-weight: 200
+weight: 500
 type: page
 ---
-
-{{< q-bibliography >}}
